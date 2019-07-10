@@ -6,4 +6,4 @@ before_install:
   - docker build -t bqroster/react-docker -f Dockerfile.dev .
 
 script:
-  - docker run bqroster/react-docker npm run test -- --coverage
+  - docker run -e CI=true bqroster/react-docker npm run test
