@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit and Update, THIS IS JUST GREAT <code>src/App.js</code> and save to reload.
+          Testing Workflow in Docker(Github-Travis-AWS) <code>src/App.js</code>
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React FAST AND SOOn
+          Learn React FAST
         </a>
       </header>
     </div>
